@@ -23,5 +23,8 @@
             "url":"https://wpackagist.org",
             "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
         }
-    ]
+    ],
+    "scripts": {
+        "build-assets":  "cd wp-content/themes/themeName/assets && parcel build main.js --no-minify --public-url=./"
+    }
 }
