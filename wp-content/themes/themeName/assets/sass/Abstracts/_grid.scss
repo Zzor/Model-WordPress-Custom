@@ -1,0 +1,11 @@
+%--principal-grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: var(--spacing-s) repeat(10, 1fr) var(--spacing-s);
+}
+
+%--is-constrain-section {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
