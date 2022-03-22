@@ -1,6 +1,9 @@
 # Instalación WordPress Custom
 
 ## 1. Clonar el proyecto y renombrar el nombre del proyecto
+
+Esta instalación de WordPress está gestionada con johnpbloch.
+
 ## 2. Recuperar las dependencias
 
 Las dependencias son gestionadas con Composer, para descargarlas:
@@ -12,7 +15,7 @@ composer install
 ## 3. Modificar el composer.json
 - Modificar "name"
 - Modificar "author"
-- - Modificar "scripts" con los nombres de los temas y plugins apropiados
+- Modificar "scripts" con los nombres de los temas y plugins apropiados
 
 # 4. Preparar la configuración WordPress
 - Copiar el archivo `wp-config-sample.php` y nombrar la copia `wp-config.php`
