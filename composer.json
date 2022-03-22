@@ -1,0 +1,27 @@
+{
+    "name": "zzor/wordpress-custom-install",
+    "authors": [
+        {
+            "name": "Zzor",
+            "email": "hugo.salazar.cardozo@gmail.com"
+        }
+    ],
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "require": {
+        "johnpbloch/wordpress": "^5.9",
+        "wpackagist-theme/twentytwentytwo": "^1.1",
+        "wpackagist-plugin/advanced-custom-fields": "^5.12",
+        "wpackagist-plugin/contact-form-7": "^5.5",
+        "wpackagist-plugin/wordpress-seo": "^18.4",
+        "wpackagist-plugin/shortpixel-image-optimiser": "^4.22"
+    },
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+        }
+    ]
+}
